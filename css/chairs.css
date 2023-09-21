@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #A7886B;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E3DCD2;
+    padding: 1rem 0;
+}
+
+.fa-bars {
+    cursor: pointer;
+}
+
+.hiddenMenu {
+    color: white;
+    position: absolute;
+    background: #393E37;
+    color: #F4F0EC;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 944px;
+}
+
+.transition {
+    transition: width 1s;
+    width: 25%;
+}
+
+.logoAndClose {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.menuItems {
+    margin-top: 12rem;
+}
+
+.menuItem {
+    color: rgb(197, 197, 197);
+    cursor: pointer;
+    list-style: none;
+    font-size: 28px;
+    width: 60%;
+    padding-top: .6rem;
+    margin: auto;
+    transition: color .3s;
+}
+
+.menuItem:hover{
+    color: white;
+}
+
+.isHidden {
+    visibility: hidden;
+}
+
+.logo {
+    margin-right: 10%;
+}
+
+.account {
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account i{
+    cursor: pointer;
+}
+
+#location {
+    width: 75%;
+    color: #A7886B;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+#location h2 {
+    border-bottom: solid #A7886B;
+    border-width: 1.5px;
+    margin-bottom: 5px;
+}
+
+#chairItems {
+    width: 75%;
+    margin: auto;
+}
+
+.item {
+    display: inline-block;
+    width: 30%;
+    margin: 2rem 0;
+    margin-right: 3.3%;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.item img {
+    color: #A7886B;
+    width: 325px;
+    height: 360px;
+    /* background-color: white; */
+}
+
+.itemInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #A7886B;
+}
+
+.details{
+    color: #A7886B;
+}
+
+.like {
+    cursor: pointer;
+    border-color: #A7886B;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offerBtn {
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 5%;
+    margin: 1rem 0 0 0;
+    padding: .5rem;
+    color: #A7886B;
+    background-color: white;
+    border-color: #A7886B;
+    transition: all .3s;
+}
+
+.offerBtn:hover{
+    color: white;
+    background-color: #A7886B;
+}
+
+.addBtn {
+    width: 48%;
+    height: 45px
+}
+
+.buy {
+    width: 48%;
+    height: 45px;
+}

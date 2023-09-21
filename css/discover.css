@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #393E37;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #393E37;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E3DCD2;
+    padding: 1rem 0;
+}
+
+.fa-bars {
+    cursor: pointer;
+}
+
+.hiddenMenu {
+    color: white;
+    position: absolute;
+    background: #393E37;
+    color: #F4F0EC;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 944px;
+}
+
+.transition {
+    transition: width 1s;
+    width: 25%;
+}
+
+.logoAndClose {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.menuItems {
+    margin-top: 12rem;
+}
+
+.menuItem {
+    color: rgb(197, 197, 197);
+    cursor: pointer;
+    list-style: none;
+    font-size: 28px;
+    width: 60%;
+    padding-top: .6rem;
+    margin: auto;
+    transition: color .3s;
+}
+
+.menuItem:hover{
+    color: white;
+}
+
+.isHidden {
+    visibility: hidden;
+}
+
+.logo {
+    margin-right: 10%;
+}
+
+.account {
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account i{
+    cursor: pointer;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+#heading h1{
+    margin-left: 40%;
+    font-size: 2.5rem;
+}
+#heading i{
+    cursor: pointer;
+}
+
+.question{
+    width: 65%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.option{
+    position: absolute;
+    width: 100%;
+}
+
+.options{
+    width: 85%;
+    margin: auto;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.options i{
+    cursor: pointer;
+}
+
+.hiden{
+    visibility: hidden;
+}
+
+.img{
+    width: 260px;
+    height: 143px;
+}
+
+#buttons{
+    width: 85%;
+    margin: auto;
+    margin-top: 40rem;
+    text-align: end;
+}
+
+.btn{
+    cursor: pointer;
+    text-decoration: none;
+    color: #E3DCD2;
+    background-color: #393E37;
+    padding: .4rem 2rem;
+    border-radius: 20px;
+}
